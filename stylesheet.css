@@ -1,0 +1,77 @@
+body{
+    border:none;
+    margin: 0;
+    }
+    a {
+    text-decoration: none;
+    color: #1B2430;
+    }
+    .main{
+    height:100vh ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #D6D5A8;
+    }
+    .nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0.5rem;
+    height: 10%;
+    align-items: center;
+    margin: 0;
+    color: #1B2430
+    }
+    .nav h3{
+    border-radius: 0.3rem;
+    padding: 0 5px;
+    transition: 0.5s;
+    }
+    .nav div h3:hover{
+    background-color: #816797;
+    }
+    .nav-links{
+    display: flex;
+    }
+    .nav-link-item{
+    margin-right: 1rem;
+    }
+    .center{
+    margin: auto 0 ;
+    }
+    .center h1,h3{
+    margin:0
+    }
+    .introduction-name{
+    font-size:4rem;
+    text-align: center;
+    color: #1B2430;
+    }
+    .introduction-profession{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 0;
+    }
+    #aboutMe{
+    background-color:#816797;
+    height: 100vh;
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+    overflow: hidden;
+    }
+    .about-me-header{
+    font-size: 2rem;
+    }
+    .about-me-paragraph{
+    font-size: 1.5rem;
+    }
+    .img-div{
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 25%;
+    }
+    .self-img{
+    border-radius: 50%;
+    width: 100%;
+    }
